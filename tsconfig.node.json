@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "types": ["node"],
+    "allowJs": true
+  },
+  "include": ["vite.base.ts", "tailwind.preset.js", "recruiter/vite.config.ts", "candidate/vite.config.ts"]
+}
